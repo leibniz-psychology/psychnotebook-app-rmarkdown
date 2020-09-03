@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=RMarkdown Server
+TryExec=startrmarkdown
+Exec=startrmarkdown
+Keywords=PsychNotebook
+Categories=Science;Development
+Description=Serve rendered RMarkdown documents.
+Description[de]=RMarkdown-Dokumente veröffentlichen.
+Icon=rmarkdown
+X-Conductor-Socket=~/.rmarkdown-socket

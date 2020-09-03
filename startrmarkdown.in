@@ -1,0 +1,9 @@
+#!/bin/bash
+# Start rmarkdown server, serving the home directory.
+
+rm $HOME/.rmarkdown-socket
+exec R_PREFIX/bin/R \
+		-q \
+		--no-save \
+		-e "rmarkdown::run(file = NULL, dir = \"$HOME\", shiny_args=list(port=structure(\"$HOME/.rmarkdown-socket\", mask=0), quiet=FALSE, launch.browser=FALSE))"
+
