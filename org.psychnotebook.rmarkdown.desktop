@@ -9,4 +9,4 @@ Categories=Science;Development
 Description=Serve rendered RMarkdown documents.
 Description[de]=RMarkdown-Dokumente veröffentlichen.
 Icon=rmarkdown
-X-Conductor-Socket=~/.rmarkdown-socket
+Interfaces=org.leibniz-psychology.conductor.v1
